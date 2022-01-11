@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="styles.css">
+	<title>TS Operators</title>
+</head>
+
+<body>
+	<div id="fo">
+		<img src="TypeScriptLogo.png" id="picture" alt="TS logo" title="TS logo">
+		<h1><a href="https://www.tutorialspoint.com/typescript/typescript_operators.htm"   target="_blank">TypeScript - Operators</a></h1>
+		<h2>What is an Operator?</h2>
+		<p>An operator defines some function that will be performed on the data. The data on which operators work are called operands. Consider the following expression: </p>
+		<p class="muvelet"> 7 + 5 = 12 </p>
+		<p>Here, the values 7, 5, and 12 are <span class="szavak"> operands</span>, while + and = are <span class="szavak">operators</span>.
+		</p><p>The major operators in TypeScript can be classified as:</p>
+	<ul>
+		<li>Arithmetic operators</li>
+		<li>Logical operators</li>  
+		<li>Relational operators</li>
+		<li>Bitwise operators</li>
+		<li>Assignment operators</li>
+		<li>Ternary/conditional operator</li>
+		<li>String operator</li>
+		<li>Type operator</li>
+	</ul>
+		<h2>Relational Operators</h2>
+		<p>Relational Operators test or define the kind of relationship between two entities. Relational operators return a Boolean value, i.e., true/ false.
+		</p><p>Assume the value of A is 10 and B is 20.</p>
+		<table class="table-hover">
+			<thead>
+				<th>Operator</th>
+				<th>Description</th>
+				<th>Example</th>
+			</thead>
+			<tr>
+				<td>&gt;</td>
+				<td>Greater than</td>
+				<td>(A &gt; B) is False</td>
+			</tr>
+			<tr>
+				<td>&lt;</td>
+				<td>Lesser than</td>
+				<td>(A &lt; B) is True</td>
+			</tr>
+			<tr>
+				<td>&gt;=</td>
+				<td>Greater than or equal to</td>
+				<td>(A &gt;= B) is False</td>
+			</tr>
+			<tr>
+				<td>&lt;</td>
+				<td>Lesser than or equal to</td>
+				<td>(A &lt;= B) is False</td>
+			</tr>
+			<tr>
+				<td>==</td>
+				<td>vEquality</td>
+				<td>(A == B) is False</td>
+			</tr>
+			<tr>
+				<td>!=</td>
+				<td>Not equal</td>
+				<td>(A != B) is True</td>
+			</tr>
+		</table>
+
+
+		<div id="gordul">Test yourself! </div>
+		<div class="container" id="feladat">
+			<div class="row">
+				<div class="col-md-6 ">
+					<div class="belso">
+					<img src="test1.jpg" class="img-fluid" alt="elso">
+					<form>
+
+					<input type="radio" id="test1A" name="test1" value="A">
+
+					<label for="test1A" id="labeltest1A">True</label><br>
+
+					<input type="radio" id="test1B" name="test1" value="B">
+
+					<label for="test1B">False</label><br>
+
+					<input type="radio" id="test1C" name="test1" value="C">
+
+					<label for="test1C">Compiler error</label><br>
+
+					<input type="radio" id="test1D" name="test1" value="D">
+
+					<label for="test1D">None of the above</label><br>
+
+					<input type="button" name="Verify" value="Verify" class="button" onclick="helyes(1)">
+
+					</form>
+				</div>
+				</div>
+				<div class="col-md-6 ">
+					<div class="belso">
+					<img src="test2.jpg" class="img-fluid" alt="masodik">
+					<form>
+
+					<input type="radio" id="test2A" name="test2" value="A">
+
+					<label for="test2A">PIZZA = 5</label><br>
+
+					<input type="radio" id="test2B" name="test2" value="B">
+
+					<label for="test2B">PIZZA = 6</label><br>
+
+					<input type="radio" id="test2C" name="test2" value="C">
+
+					<label for="test2C">BURGER = 5</label><br>
+
+					<input type="radio" id="test2D" name="test2" value="D">
+
+					<label for="test2D">BURGER = 6</label><br>
+
+					<input type="button" name="Verify" value="Verify" class="button" onclick="helyes(2)">
+
+					</form>
+					</div>
+				</div>
+			
+				<div class="col-md-6 ">
+					<div class="belso">
+					<img src="test3.jpg" class="img-fluid" alt="harmadik">
+					<form>
+
+					<input type="radio" id="test3A" name="test3" value="A">
+
+					<label for="test3A">(==,!=) higher priority</label><br>
+
+					<input type="radio" id="test3B" name="test3" value="B">
+
+					<label for="test3B">(==,!=) lower priority</label><br>
+
+					<input type="radio" id="test3C" name="test3" value="C">
+
+					<label for="test3C">equal prority</label><br>
+
+					<input type="radio" id="test3D" name="test3" value="D">
+
+					<label for="test3D">None of the above</label><br>
+
+					<input type="button" name="Verify" value="Verify" class="button" onclick="helyes(3)">
+					</form>
+				</div>
+				</div>
+				<div class="col-md-6 ">
+					<div class="belso">
+					<img src="test4.jpg" class="img-fluid" alt="negyedik">
+					
+					<form>
+
+					<input type="radio" id="test4A" name="test4" value="A">
+
+					<label for="test4A">6</label><br>
+
+					<input type="radio" id="test4B" name="test4" value="B">
+
+					<label for="test4B">7</label><br>
+
+					<input type="radio" id="test4C" name="test4" value="C">
+
+					<label for="test4C">8</label><br>
+
+					<input type="radio" id="test4D" name="test4" value="D">
+
+					<label for="test4D">Compiler error</label><br>
+
+					<input type="button" name="Verify" value="Verify" class="button" onclick="helyes(4)">
+
+					</form>
+				</div>
+				</div>
+			</div>
+			
+	</div>
+
+
+
+	<script src="bootstrap-4.4.1-dist/js/jquery.min.js"></script>
+	<script src="bootstrap-4.4.1-dist/js/tether.min.js"></script>
+	<script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+	<script src="bootstrap-4.4.1-dist/js/jquery.easing.min.js"></script>
+	<script src="js.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+body {
+  background-color: rgb(111, 111, 111);
+  background-image: url("TypeScriptBack.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+a {
+  color: black;
+}
+
+
+#fo{
+  margin-bottom: 20px;
+  margin-top: 40px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 30px;
+  max-width: 80%;
+  margin: 30px auto;
+  
+}
+
+
+#picture {
+  float: right;
+  height: 250 px;
+}
+
+
+h1 {
+  font-variant: small-caps;
+  font-style: italic;
+}
+
+
+li {
+  margin-left: 15px;
+  list-style-type: square;
+}
+
+
+table{
+  width: 80%;
+  margin: auto;
+  border: 1px solid gray;
+  margin-bottom: 20px;
+}
+
+
+tr,td{
+  border: 1px solid gray;
+  text-align: center;
+  margin: 5px;
+}
+
+
+thead{
+  background-color: #087AC8;
+  color: white;
+}
+
+
+.szavak{
+  color: #087AC8;
+  font-weight: bold;
+}
+
+
+div{
+  padding: 10px;
+}
+
+
+p {
+  margin: 5px;
+  text-indent: 20px;
+  text-align: justify;
+  line-height: 120%;
+  text-indent: 0%;
+}
+
+.muvelet{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+
+a:hover { 
+  color: #087AC8;
+  text-decoration: none;
+}
+
+
+
+#gordul{
+  text-align: center;
+ background-color: blue;
+ color: white;
+ margin: auto;
+ width: 30%;
+ padding: 10px;
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+
+
+.button{
+ color: white;
+ background-color: #087AC8;
+ border-radius: 6px;
+}
+
+
+#feladat{
+  display: none;
+}
+
+
+.belso{
+ border: 2px solid blue;
+ margin: 10px;
+ height: 380px;
+ padding: 10px;
+
+}
+
+
